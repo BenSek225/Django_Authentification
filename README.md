@@ -30,8 +30,7 @@ Ce projet est une application Django complète qui gère l'authentification et l
 
 2. Créez et activez un environnement virtuel :
     ```bash
-    python -m venv env
-    source env/bin/activate  # Sur Windows, utilisez `env\Scripts\activate`
+    source monde/bin/activate  # Sur Windows, utilisez `monde\Scripts\activate`
 
 3. Installez les dépendances :
    ```bash
