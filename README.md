@@ -32,23 +32,27 @@ Ce projet est une application Django complète qui gère l'authentification et l
     ```bash
     source monde/bin/activate  # Sur Windows, utilisez `monde\Scripts\activate`
 
-3. Installez les dépendances :
+3. Installez outils web que j'ai installer pour l'envoie d'email :
+   ```bash
+   pip install "django-anymail[sendinblue]"
+
+4. Installez les dépendances :
    ```bash
    pip install -r requirements.txt
 
-4. Appliquez les migrations :
+5. Appliquez les migrations :
    ```bash
    python manage.py migrate
 
-5. Créez un superutilisateur pour accéder à l'interface d'administration :
+6. Créez un superutilisateur pour accéder à l'interface d'administration :
    ```bash
    python manage.py createsuperuser
 
-6. Démarrez le serveur de développement :
+7. Démarrez le serveur de développement :
     ```bash
     python manage.py runserver
 
-7. Ouvrez votre navigateur et accédez à http://127.0.0.1:8000 pour voir l'application.
+8. Ouvrez votre navigateur et accédez à http://127.0.0.1:8000 pour voir l'application.
 
 ## Utilisation
 
